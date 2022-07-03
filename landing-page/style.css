@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: white;
+  height: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.nav a {
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: blue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.container .left-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.container .left-section button {
+  background-color: blue;
+  color: white;
+  border-radius: 20%;
+  font-size: 30px;
+  border-radius: 1px solid blue;
+  padding: auto;
+}
+
+.image-display {
+  height: 400px;
+  text-align: center;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+#images div img {
+  border-radius: 20px;
+}
+
+.quotes-section {
+  height: 400px;
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quotes-section q {
+  font-size: 37px;
+  font-style: italic;
+}
+
+.sign-up {
+  height: 300px;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  height: 100px;
+  margin: 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+.sign-up .div2 {
+  margin: 40px auto;
+}
+
+.sign-up .div1 {
+  margin: 20px;
+  padding: 10px;
+}
+
+footer {
+  position: relative;
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  height: 60px;
+}
+
+.sign-up .div2 button {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border: 1px solid white;
+}
